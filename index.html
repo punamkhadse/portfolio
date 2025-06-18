@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./vendor/bootstrap-5.3.6/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./vendor/fontawesome-free-6.7-2.2-web/css/all.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/gobal.css">
+    <script src="./vendor/bootstrap-5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+    <!--hero section-->
+    <section id="hero">
+        <div class="hero-container">
+            <div class="video-container">
+                <video autoplay loop>
+                    <source src="./media/video.mp4">
+                </video>
+            </div>
+            <div class="text-container">
+                <div class="container text-content">
+                    <h2 class="title">Freelence <span class="highlight">Developer</span></h2>
+                    <span class="secondary-title">
+                        I can help you with </span>
+                    <span> Web Development | Mobile App Development | Wordpress Site
+                    </span>
+                    <button id="heroCTABtn" class="hero-cta">
+                        <span>Learn More</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--navbar start-->
+    <header id="navbar" class="container-fluid shadow-sm position-sticky top-0 z-3">
+        <div class="container">
+            <nav class="navbar navbar-expand justify-content-between align-item-center navbar-light">
+                <div class="navbar-brand d-flex align-item-center gap-3">
+                    <div class="bg-danger rounded-circle position-relative" style="width: 40px; height: 40px;">
+                        <i class="fa-solid fa-code position-absolute start-50 top-50 translate-middle text-light"></i>
+                    </div>
+                    
+                    <span class="fw-bold m-1">Software</span>
+                </div>
+                <ul class="navbar-nav gap-5">
+                        <li class="nav-item"><a class="nav-link" href="">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Protfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Services</a></li>
+                   </ul>
+                <button class="navbar-cta-button">Hire Me</button>
+            </nav>
+        </div>
+    </header>
+
+    <!--about start-->
+    <section id="about">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row gap-5 align-item-center" style="padding: 7rem 0;">
+                    <div class="col d-flex gap-3 flex-column text-dark">
+                        <h1 class="fw-bold">Let's Create...</h1>
+                        <p class="text-secondary">You may contribute a small amount via PayPal if Nomad Force Template is useful for you. This will absolutely help us to keep creating better CSS templates for you.</p>
+                        <p class="text-secondary">We provide you 100% free templates on TemplateMo website. Images are provided by FreePik and Unsplash websites.</p>
+                    </div>
+                    <div class="col gap-5 pt-4 mt-5">
+                        <p class="text-secondary">This Bootstrap 5 layout is free to use for your business. You are allowed to edit it in any way you like. However, please do not redistribute this template ZIP file for a template download purpose on any other website such as Free CSS collections.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <section class="about-work">
+        <div class="container-fluid">
+            <div class="about-work-container row">
+                <div class="info col bg-danger">
+                    <div class="row">
+                        <div class="col image bg-dark px-0">
+                            <img class="image-fluid" src="./media/img1.jpg" alt="">
+                        </div>
+                        <div class="col text px-5">
+                            <span class="fs-1 fw-bolder">We're idealistic and strategig thinkers</span>
+                            <span>Over six years in the vido bussiness</span>
+                            <div class="d-flex flex-column">
+                                <a href="" class="text-success">Read news and event</a>
+                                <a href="" class="text-success">Work with me</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="corousel position-relative col px-0">
+                    <div class="corousel-image-container bg-dark p-0 position-relative" style="width: 100%; height: 100%;">
+                        <img id="about-corousel" class="img-fluid position-absolute top-0 start-0 w-100 h-100" src="./media/corousel.jpg" alt="" style="object-fit: cover;">
+                    </div>
+                    <div class="corousel-controls w-50 py-3 px-2">
+                        <div class="row">
+                            <div class="col-8 title text-light d-flex flex-column">
+                                <span class="fs-3 fw-bold">Corousel title</span>
+                                <span>position</span>
+                            </div>
+                            <div class="col-buttons">
+                                <button id="about-corousel-prev-btn">
+                                    <i class="fa-solid fa-chevron-left"></i>
+                                </button>
+                                <button id="about-corousel-next-btn">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--about end-->
+
+    <!--news & events-->
+    <section id="news">
+        <div class="container-fluid">
+            <h1 class="text-center fw-bolder pb-5">News & Event</h1>
+            <div class="container">              
+                    <div class="row gap-3">
+                        <div class="col p-2">
+                            <div class="news-item-card">
+                                <a href="">
+                                    <div class="news-category text-light">News</div>
+                                    <img id="" class="img-fluid" src="./media/img55.jpg" 
+                                    data-discription="The rise of the gig economy spells the end for these workers the old system" alt="">
+                               </a>
+                                 <div class=" bg-light flex-column p-4">
+                                    <span class="fs-3 fw-bold">The rise of the gig economy spells the end for these workers the old system</span>
+                                </div>
+                             </div>
+                        </div>
+                        <div class="col p-2">
+                            <div class="news-item-card">
+                                <a href="">
+                                <div class="news-category text-light">Event</div>
+                                <img class="img-fluid" src="./media/key.jpg" 
+                                data-discription="Job Opportunities: Digital, Marketing" alt="">
+                                </a>
+                                <div class="bg-light d-flex flex-column p-4"> 
+                                    <span class="fs-3 fw-bold">Job Opportunities: Digital, Marketing</span>
+                                    <span class="fs-3">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        Alaska, August 6, 2021</span>                           
+                                </div>
+                            </div>
+                            <div class="news-item-card">
+                                <a href="">
+                                <div class="news-category text-light">News</div>
+                                <img id="" class="img-fluid" src="./media/key1.jpg" 
+                                data-discription="What happened to new viral video?" alt="">
+                                </a>
+                                <div class="bg-light d-flex flex-column p-1">
+                                    <span class="fs-3 fw-bold">What happened to new viral video?</span>
+                                </div>                             
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--portfolio-->
+    <section id="portfolio">
+        <div class="container-fluid">
+            <h1 class="text-center fw-bolder pb-5">Portfolio</h1>
+            <div class="container">
+                <div class="row gap-3">
+                    <div class="col p-2">
+                        <!-- card 1 -->
+                        <div class="portfolio-item-card">
+                            <img id="" class="img-fluid portfolio-img" src="./media/img3.jpg"
+                                data-title="E-Commerce Platform" data-discription="created using MERN Stack" alt="">
+                            <div class="bg-white d-flex flex-column p-4">
+                                <span class="fs-3 fw-bolder">E-Commerce Platform</span>
+                                <span class="fw-medium">created using MERN Stack</span>
+                            </div>
+                        </div>
+                        <!-- card 2 -->
+                        <div class="portfolio-item-card mt-4">
+                            <img id="" class="img-fluid portfolio-img" src="./media/img55.jpg"
+                                data-title="CRM-I Dashboard" data-discription="created using React.js" alt="">
+                            <div class="bg-white d-flex flex-column p-4">
+                                <span class="fs-3 fw-bolder">CRM-I Dashboard</span>
+                                <span class="fw-medium">created using React.js</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col p-2">
+                        <!-- card 1 -->
+                        <div class="portfolio-item-card">
+                            <img id="" class="img-fluid portfolio-img" src="./media/img33.jpg"
+                                data-title="Fitness Tracker" data-discription="created using React Native" alt="">
+                            <div class="bg-white d-flex flex-column p-4">
+                                <span class="fs-3 fw-bolder">Fitness Tracker</span>
+                                <span class="fw-medium">created using React Native</span>
+                            </div>
+                        </div>
+                        <!-- card 2 -->
+                        <div class="portfolio-item-card mt-4">
+                            <img id="" class="img-fluid portfolio-img" src="./media/img44.jpg"
+                                data-title="Tracker Navigation System" data-discription="created using Java" alt="">
+                            <div class="bg-white d-flex flex-column p-4">
+                                <span class="fs-3 fw-bolder">Tracker Navigation System</span>
+                                <span class="fw-medium">created using Java</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--pop-over-->
+                <div id="pop-over-image">
+                    <div class="content position-relative">
+                        <div class="img overflow-hidden w-100 h-100">
+                            <img id="pop-over-image-data" class="img-fluid" src="./media/img5.jpg" alt="">
+                        </div>
+                        <div
+                            class="discription bg-white d-flex flex-column justify-content-center align-items-center p-4">
+                            <!-- fetched -->
+                            <h1 id="pop-over-title">title</h1>
+                            <span id="pop-over-discription">discription</span>
+                        </div>
+
+                        <button id="close-pop-over-btn"
+                            class="close-btn btn btn-danger position-absolute start-100 top-0 translate-middle rounded-circle">
+                            <span class="fa-solid fa-times"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer start -->
+
+    <section id="contact">
+        <div class="container-fluid">
+            <h1 class="text-center py-5">Contact Me !</h1>
+            <div class="container position-relative">
+                <div class="contact-container w-75 p-5 position-relative start-50 translate-middle-x">
+                    <form class="d-flex gap-5 flex-column" action="">
+                        <div class="row gap-3">
+                            <div class="col d-flex flex-column gap-3">
+                                <label class="fw-bold" for="">Name</label>
+                                <input class="form-control rounded-0 p-2" type="text" placeholder="Full Name" required>
+                            </div>
+                            <div class="col d-flex flex-column gap-3">
+                                <label class="fw-bold" for="">Email</label>
+                                <input class="form-control rounded-0 p-2" type="email" placeholder="Email Address"
+                                    name="" id="" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 d-flex flex-column gap-3 ">
+                                <label class="fw-bold" for="">Message</label>
+                                <textarea class="form-control rounded-0" placeholder="Enter Message..." rows="8" name=""
+                                    id=""></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <label for="">Please Select Services</label>
+                            <div class="d-flex gap-3 justify-content-between pt-4">
+                                <div>
+                                    <input type="checkbox" class="text-align-center ">
+                                    <label for="">Web Development</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" class="text-align-center ">
+                                    <label for="">Digital Marketing</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" class="text-align-center ">
+                                    <label for="">Mobile Development</label>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 text-center ">
+                                <button class="btn btn-danger w-50">Submit Form</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119064.90027737529!2d78.99010914920589!3d21.161225995229824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c0a5a31faf13%3A0x19b37d06d0bb3e2b!2sNagpur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1750086011115!5m2!1sen!2sin"
+            height="500" class="w-100" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <footer id="main-footer">
+        <div class="contact-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col d-flex flex-column gap-5">
+                        <span class="fw-bold fs-2">Software</span>
+                        <span class="fw-light fs-4">software12@gmail.com</span>
+                        <div class="d-flex gap-3">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                    </div>
+                    <div class="col text-end">
+                        <ul style="list-style: none;" class="p-0 d-flex gap-4 flex-column justify-content-between">
+                            <li>
+                                Email Us : software12@gmail.com
+                            </li>
+                            <li>
+                                Call Us : +91 8080141046
+                            </li>
+                            <li>
+                                Reach Us : Subedar, nagpur
+                            </li>
+                            <li>
+                                All rights reserved © software | Developed By software @ 2025
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- footer end -->
+
+
+
+</body>
+<script src="./scripts/global.js"></script>
+<script src="./scripts/action.js"></script>
+</html>

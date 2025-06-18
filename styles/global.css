@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --color1: 0, 128, 157;
+    --color2: 252, 236, 221;
+    --color3: 255, 118, 1 ;
+    --color4: 243, 240,240;
+    --light: 240, 240, 240;
+    --dark: 25, 25, 25;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif !important;
+    height: 300vh;
+    overflow-x: hidden;
+}
